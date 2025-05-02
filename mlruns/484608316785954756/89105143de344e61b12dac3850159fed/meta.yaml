@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/89105143de344e61b12dac3850159fed/artifacts
+end_time: 1746130775124
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: 89105143de344e61b12dac3850159fed
+run_name: persistent-steed-391
+run_uuid: 89105143de344e61b12dac3850159fed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746130764841
+status: 3
+tags: []
+user_id: arai

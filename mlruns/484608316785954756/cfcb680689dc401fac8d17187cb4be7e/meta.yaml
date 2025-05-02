@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/cfcb680689dc401fac8d17187cb4be7e/artifacts
+end_time: 1746132345958
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: cfcb680689dc401fac8d17187cb4be7e
+run_name: rebellious-doe-220
+run_uuid: cfcb680689dc401fac8d17187cb4be7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746132319059
+status: 3
+tags: []
+user_id: arai

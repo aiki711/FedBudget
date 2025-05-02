@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/arai/大学院/アプリ/federated_learning/project/mlruns/artifacts/871956077650657910/89e60983971547d6a9679320ead40466/artifacts
+end_time: 1746111985052
+entry_point_name: ''
+experiment_id: '871956077650657910'
+lifecycle_stage: active
+run_id: 89e60983971547d6a9679320ead40466
+run_name: keras_lstm_prophet
+run_uuid: 89e60983971547d6a9679320ead40466
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746111941251
+status: 3
+tags: []
+user_id: arai

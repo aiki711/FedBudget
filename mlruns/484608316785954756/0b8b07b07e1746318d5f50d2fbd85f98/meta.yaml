@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/0b8b07b07e1746318d5f50d2fbd85f98/artifacts
+end_time: 1746132592812
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: 0b8b07b07e1746318d5f50d2fbd85f98
+run_name: wistful-koi-188
+run_uuid: 0b8b07b07e1746318d5f50d2fbd85f98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746132562037
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/cfb1a42e56d843299171063c07e35b40/artifacts
+end_time: 1746130804964
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: cfb1a42e56d843299171063c07e35b40
+run_name: big-fish-741
+run_uuid: cfb1a42e56d843299171063c07e35b40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746130792059
+status: 3
+tags: []
+user_id: arai

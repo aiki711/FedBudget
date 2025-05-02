@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/95e828861d5e4bf4a98ede6404d39bad/artifacts
+end_time: 1746132240954
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: 95e828861d5e4bf4a98ede6404d39bad
+run_name: rogue-loon-71
+run_uuid: 95e828861d5e4bf4a98ede6404d39bad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746132201757
+status: 3
+tags: []
+user_id: arai

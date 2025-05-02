@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/9a3fca9dcadf4f96944f15837bdbad83/artifacts
+end_time: 1746132318779
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: 9a3fca9dcadf4f96944f15837bdbad83
+run_name: bald-boar-349
+run_uuid: 9a3fca9dcadf4f96944f15837bdbad83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746132289104
+status: 3
+tags: []
+user_id: arai

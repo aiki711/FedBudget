@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/31c1744f29f04ba7a4b2a9f690237ef6/artifacts
+end_time: 1746132372675
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: 31c1744f29f04ba7a4b2a9f690237ef6
+run_name: likeable-donkey-72
+run_uuid: 31c1744f29f04ba7a4b2a9f690237ef6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746132346329
+status: 3
+tags: []
+user_id: arai

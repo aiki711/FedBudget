@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/907854375560017544
+creation_time: 1746128947440
+experiment_id: '907854375560017544'
+last_update_time: 1746128947440
+lifecycle_stage: active
+name: keras_lstm_prophet_scaled

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/28fd508fe8b84c909f9b10e55b9d6a24/artifacts
+end_time: 1746133064037
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: 28fd508fe8b84c909f9b10e55b9d6a24
+run_name: agreeable-roo-431
+run_uuid: 28fd508fe8b84c909f9b10e55b9d6a24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746132964275
+status: 3
+tags: []
+user_id: arai

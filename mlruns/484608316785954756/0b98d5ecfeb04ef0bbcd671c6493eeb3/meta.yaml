@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/0b98d5ecfeb04ef0bbcd671c6493eeb3/artifacts
+end_time: 1746130955927
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: 0b98d5ecfeb04ef0bbcd671c6493eeb3
+run_name: upset-yak-191
+run_uuid: 0b98d5ecfeb04ef0bbcd671c6493eeb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746130947038
+status: 3
+tags: []
+user_id: arai

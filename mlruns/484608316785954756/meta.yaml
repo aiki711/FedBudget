@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/484608316785954756
+creation_time: 1746130315991
+experiment_id: '484608316785954756'
+last_update_time: 1746130315991
+lifecycle_stage: active
+name: keras_lstm_optuna

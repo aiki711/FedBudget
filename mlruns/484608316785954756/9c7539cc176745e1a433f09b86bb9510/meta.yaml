@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/9c7539cc176745e1a433f09b86bb9510/artifacts
+end_time: 1746130859440
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: 9c7539cc176745e1a433f09b86bb9510
+run_name: respected-trout-616
+run_uuid: 9c7539cc176745e1a433f09b86bb9510
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746130851435
+status: 3
+tags: []
+user_id: arai

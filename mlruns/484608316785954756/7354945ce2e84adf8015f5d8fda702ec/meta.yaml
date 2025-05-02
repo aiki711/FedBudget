@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/7354945ce2e84adf8015f5d8fda702ec/artifacts
+end_time: 1746130670581
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: 7354945ce2e84adf8015f5d8fda702ec
+run_name: inquisitive-dove-163
+run_uuid: 7354945ce2e84adf8015f5d8fda702ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746130662505
+status: 3
+tags: []
+user_id: arai

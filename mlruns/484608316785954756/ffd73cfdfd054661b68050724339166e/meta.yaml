@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/ffd73cfdfd054661b68050724339166e/artifacts
+end_time: 1746130674734
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: ffd73cfdfd054661b68050724339166e
+run_name: youthful-bug-443
+run_uuid: ffd73cfdfd054661b68050724339166e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746130670744
+status: 3
+tags: []
+user_id: arai

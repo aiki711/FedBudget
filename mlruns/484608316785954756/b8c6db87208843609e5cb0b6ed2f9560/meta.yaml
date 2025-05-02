@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/484608316785954756/b8c6db87208843609e5cb0b6ed2f9560/artifacts
+end_time: 1746132624950
+entry_point_name: ''
+experiment_id: '484608316785954756'
+lifecycle_stage: active
+run_id: b8c6db87208843609e5cb0b6ed2f9560
+run_name: clumsy-turtle-734
+run_uuid: b8c6db87208843609e5cb0b6ed2f9560
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746132593632
+status: 3
+tags: []
+user_id: arai
