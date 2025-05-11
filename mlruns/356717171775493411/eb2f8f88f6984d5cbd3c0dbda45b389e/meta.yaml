@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/eb2f8f88f6984d5cbd3c0dbda45b389e/artifacts
+end_time: 1746248575583
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: eb2f8f88f6984d5cbd3c0dbda45b389e
+run_name: hilarious-stag-102
+run_uuid: eb2f8f88f6984d5cbd3c0dbda45b389e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248534712
+status: 3
+tags: []
+user_id: arai

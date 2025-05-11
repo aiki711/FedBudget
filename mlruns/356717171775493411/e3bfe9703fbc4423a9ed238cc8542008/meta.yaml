@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/e3bfe9703fbc4423a9ed238cc8542008/artifacts
+end_time: 1746247154855
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: e3bfe9703fbc4423a9ed238cc8542008
+run_name: unruly-carp-597
+run_uuid: e3bfe9703fbc4423a9ed238cc8542008
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247143164
+status: 3
+tags: []
+user_id: arai

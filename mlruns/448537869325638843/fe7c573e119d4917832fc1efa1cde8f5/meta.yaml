@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/fe7c573e119d4917832fc1efa1cde8f5/artifacts
+end_time: 1746288338119
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: fe7c573e119d4917832fc1efa1cde8f5
+run_name: defiant-bear-240
+run_uuid: fe7c573e119d4917832fc1efa1cde8f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746288204482
+status: 3
+tags: []
+user_id: arai

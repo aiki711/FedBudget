@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/f42c76dea51b410989a64ef1e9f9519f/artifacts
+end_time: 1746247789067
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: f42c76dea51b410989a64ef1e9f9519f
+run_name: burly-ray-21
+run_uuid: f42c76dea51b410989a64ef1e9f9519f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247784207
+status: 3
+tags: []
+user_id: arai

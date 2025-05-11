@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/a7ee0b408d9f4b4bad3e5d4e9aeec3bc/artifacts
+end_time: 1746249872095
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: a7ee0b408d9f4b4bad3e5d4e9aeec3bc
+run_name: fortunate-goose-786
+run_uuid: a7ee0b408d9f4b4bad3e5d4e9aeec3bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249843072
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/d165fce7029240c5ba6d0b96181a38f0/artifacts
+end_time: 1746250756837
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: d165fce7029240c5ba6d0b96181a38f0
+run_name: smiling-snipe-658
+run_uuid: d165fce7029240c5ba6d0b96181a38f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746250749263
+status: 3
+tags: []
+user_id: arai

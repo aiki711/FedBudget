@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/6fc1a87332f844dc9665e382bb6106ec/artifacts
+end_time: 1746247873614
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 6fc1a87332f844dc9665e382bb6106ec
+run_name: monumental-vole-721
+run_uuid: 6fc1a87332f844dc9665e382bb6106ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247839501
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/cff96c0157e14cebb9f894f78b6d77fd/artifacts
+end_time: 1746245183442
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: cff96c0157e14cebb9f894f78b6d77fd
+run_name: intelligent-auk-44
+run_uuid: cff96c0157e14cebb9f894f78b6d77fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245182978
+status: 4
+tags: []
+user_id: arai

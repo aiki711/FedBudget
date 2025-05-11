@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/5eaaac4c280a4c6c8b047f17e86d9f6e/artifacts
+end_time: 1746287026537
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 5eaaac4c280a4c6c8b047f17e86d9f6e
+run_name: adorable-doe-353
+run_uuid: 5eaaac4c280a4c6c8b047f17e86d9f6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746286777642
+status: 3
+tags: []
+user_id: arai

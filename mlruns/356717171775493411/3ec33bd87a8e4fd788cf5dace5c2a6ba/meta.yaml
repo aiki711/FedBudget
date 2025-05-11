@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/3ec33bd87a8e4fd788cf5dace5c2a6ba/artifacts
+end_time: 1746249574672
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 3ec33bd87a8e4fd788cf5dace5c2a6ba
+run_name: learned-mouse-168
+run_uuid: 3ec33bd87a8e4fd788cf5dace5c2a6ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249542995
+status: 3
+tags: []
+user_id: arai

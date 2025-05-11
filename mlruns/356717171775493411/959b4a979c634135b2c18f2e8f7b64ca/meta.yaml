@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/959b4a979c634135b2c18f2e8f7b64ca/artifacts
+end_time: 1746249796005
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 959b4a979c634135b2c18f2e8f7b64ca
+run_name: resilient-trout-512
+run_uuid: 959b4a979c634135b2c18f2e8f7b64ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249791018
+status: 3
+tags: []
+user_id: arai

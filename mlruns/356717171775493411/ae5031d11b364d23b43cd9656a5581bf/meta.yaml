@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/ae5031d11b364d23b43cd9656a5581bf/artifacts
+end_time: 1746249842916
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: ae5031d11b364d23b43cd9656a5581bf
+run_name: blushing-hawk-164
+run_uuid: ae5031d11b364d23b43cd9656a5581bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249836173
+status: 3
+tags: []
+user_id: arai

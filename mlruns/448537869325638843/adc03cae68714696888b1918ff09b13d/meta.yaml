@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/adc03cae68714696888b1918ff09b13d/artifacts
+end_time: 1746288873535
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: adc03cae68714696888b1918ff09b13d
+run_name: rumbling-trout-148
+run_uuid: adc03cae68714696888b1918ff09b13d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746288821239
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/9150f0ef58f74c2f8e498f67c15f1a22/artifacts
+end_time: 1746247106424
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 9150f0ef58f74c2f8e498f67c15f1a22
+run_name: carefree-ray-714
+run_uuid: 9150f0ef58f74c2f8e498f67c15f1a22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247102695
+status: 3
+tags: []
+user_id: arai

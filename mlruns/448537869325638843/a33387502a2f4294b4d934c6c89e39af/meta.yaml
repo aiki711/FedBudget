@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/a33387502a2f4294b4d934c6c89e39af/artifacts
+end_time: 1746289966558
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: a33387502a2f4294b4d934c6c89e39af
+run_name: lyrical-squid-282
+run_uuid: a33387502a2f4294b4d934c6c89e39af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746289930483
+status: 3
+tags: []
+user_id: arai

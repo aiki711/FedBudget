@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/98bd1a9766cd43de81b30d0a7c7e1d6e/artifacts
+end_time: 1746245182406
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 98bd1a9766cd43de81b30d0a7c7e1d6e
+run_name: fortunate-seal-299
+run_uuid: 98bd1a9766cd43de81b30d0a7c7e1d6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245182155
+status: 4
+tags: []
+user_id: arai

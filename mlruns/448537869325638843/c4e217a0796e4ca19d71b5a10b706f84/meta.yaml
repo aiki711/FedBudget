@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/c4e217a0796e4ca19d71b5a10b706f84/artifacts
+end_time: 1746285652724
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: c4e217a0796e4ca19d71b5a10b706f84
+run_name: persistent-grub-71
+run_uuid: c4e217a0796e4ca19d71b5a10b706f84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746285614242
+status: 3
+tags: []
+user_id: arai

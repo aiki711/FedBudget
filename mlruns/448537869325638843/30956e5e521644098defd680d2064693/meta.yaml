@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/30956e5e521644098defd680d2064693/artifacts
+end_time: 1746290788711
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 30956e5e521644098defd680d2064693
+run_name: smiling-moth-90
+run_uuid: 30956e5e521644098defd680d2064693
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746290748135
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/c91dce6dd0ab484fa8138055c28f9bba/artifacts
+end_time: 1746250689055
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: c91dce6dd0ab484fa8138055c28f9bba
+run_name: crawling-mole-65
+run_uuid: c91dce6dd0ab484fa8138055c28f9bba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746250682326
+status: 3
+tags: []
+user_id: arai

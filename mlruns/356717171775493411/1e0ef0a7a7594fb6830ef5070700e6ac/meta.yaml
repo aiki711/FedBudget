@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/1e0ef0a7a7594fb6830ef5070700e6ac/artifacts
+end_time: 1746245181478
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 1e0ef0a7a7594fb6830ef5070700e6ac
+run_name: inquisitive-tern-211
+run_uuid: 1e0ef0a7a7594fb6830ef5070700e6ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245181070
+status: 4
+tags: []
+user_id: arai

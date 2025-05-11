@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/5eed87301ed14a598af564f33670fa9d/artifacts
+end_time: 1746285613128
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 5eed87301ed14a598af564f33670fa9d
+run_name: wistful-goat-762
+run_uuid: 5eed87301ed14a598af564f33670fa9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746285572863
+status: 3
+tags: []
+user_id: arai

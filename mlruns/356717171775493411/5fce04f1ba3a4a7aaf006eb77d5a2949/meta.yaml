@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/5fce04f1ba3a4a7aaf006eb77d5a2949/artifacts
+end_time: 1746249650047
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 5fce04f1ba3a4a7aaf006eb77d5a2949
+run_name: suave-stag-52
+run_uuid: 5fce04f1ba3a4a7aaf006eb77d5a2949
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249635461
+status: 3
+tags: []
+user_id: arai

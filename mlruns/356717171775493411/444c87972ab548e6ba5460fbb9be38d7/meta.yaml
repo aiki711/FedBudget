@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/444c87972ab548e6ba5460fbb9be38d7/artifacts
+end_time: 1746245188409
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 444c87972ab548e6ba5460fbb9be38d7
+run_name: bold-shark-258
+run_uuid: 444c87972ab548e6ba5460fbb9be38d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245188242
+status: 4
+tags: []
+user_id: arai

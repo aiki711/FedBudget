@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/ff45d1a911c544b98bb3d00c1789294d/artifacts
+end_time: 1746245217745
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: ff45d1a911c544b98bb3d00c1789294d
+run_name: vaunted-hen-233
+run_uuid: ff45d1a911c544b98bb3d00c1789294d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245217599
+status: 4
+tags: []
+user_id: arai

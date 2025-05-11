@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/2497bd4a8c054c3e8f088bd090944875/artifacts
+end_time: 1746287554305
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 2497bd4a8c054c3e8f088bd090944875
+run_name: capable-tern-278
+run_uuid: 2497bd4a8c054c3e8f088bd090944875
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746287317722
+status: 3
+tags: []
+user_id: arai

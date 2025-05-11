@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/c7d742a3724547d4b4f9f634da0a681d/artifacts
+end_time: 1746245217953
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: c7d742a3724547d4b4f9f634da0a681d
+run_name: enchanting-slug-743
+run_uuid: c7d742a3724547d4b4f9f634da0a681d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245217865
+status: 4
+tags: []
+user_id: arai

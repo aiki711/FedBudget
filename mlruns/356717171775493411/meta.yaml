@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/356717171775493411
+creation_time: 1746245141908
+experiment_id: '356717171775493411'
+last_update_time: 1746245141908
+lifecycle_stage: active
+name: lstm_optuna

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/ce25c1c59fd642a5942dcdd441dbad7f/artifacts
+end_time: 1746250581837
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: ce25c1c59fd642a5942dcdd441dbad7f
+run_name: crawling-perch-757
+run_uuid: ce25c1c59fd642a5942dcdd441dbad7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746250574741
+status: 3
+tags: []
+user_id: arai

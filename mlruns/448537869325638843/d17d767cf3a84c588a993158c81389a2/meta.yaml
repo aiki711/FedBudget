@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/d17d767cf3a84c588a993158c81389a2/artifacts
+end_time: 1746282510605
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: d17d767cf3a84c588a993158c81389a2
+run_name: wistful-rat-103
+run_uuid: d17d767cf3a84c588a993158c81389a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746282496651
+status: 3
+tags: []
+user_id: arai

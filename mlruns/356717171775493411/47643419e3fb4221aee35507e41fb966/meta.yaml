@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/47643419e3fb4221aee35507e41fb966/artifacts
+end_time: 1746245238837
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 47643419e3fb4221aee35507e41fb966
+run_name: omniscient-skunk-566
+run_uuid: 47643419e3fb4221aee35507e41fb966
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245238613
+status: 4
+tags: []
+user_id: arai

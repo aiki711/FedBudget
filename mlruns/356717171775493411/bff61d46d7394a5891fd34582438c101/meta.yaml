@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/bff61d46d7394a5891fd34582438c101/artifacts
+end_time: 1746249836014
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: bff61d46d7394a5891fd34582438c101
+run_name: intrigued-skink-311
+run_uuid: bff61d46d7394a5891fd34582438c101
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249828463
+status: 3
+tags: []
+user_id: arai

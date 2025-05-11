@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/4d4fa4aa971b4c8cb152f4cc11cdba03/artifacts
+end_time: 1746246911711
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 4d4fa4aa971b4c8cb152f4cc11cdba03
+run_name: peaceful-lynx-561
+run_uuid: 4d4fa4aa971b4c8cb152f4cc11cdba03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746246900173
+status: 3
+tags: []
+user_id: arai

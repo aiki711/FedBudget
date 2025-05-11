@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/3d188b6da2de4c1e9c2333ef5cc453bb/artifacts
+end_time: 1746288032697
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 3d188b6da2de4c1e9c2333ef5cc453bb
+run_name: rambunctious-ox-360
+run_uuid: 3d188b6da2de4c1e9c2333ef5cc453bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746287842873
+status: 3
+tags: []
+user_id: arai

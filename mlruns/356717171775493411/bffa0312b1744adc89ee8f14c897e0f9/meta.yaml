@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/bffa0312b1744adc89ee8f14c897e0f9/artifacts
+end_time: 1746249801859
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: bffa0312b1744adc89ee8f14c897e0f9
+run_name: dashing-cub-337
+run_uuid: bffa0312b1744adc89ee8f14c897e0f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249796168
+status: 3
+tags: []
+user_id: arai

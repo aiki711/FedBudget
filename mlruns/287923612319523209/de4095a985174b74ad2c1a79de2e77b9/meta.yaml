@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/287923612319523209/de4095a985174b74ad2c1a79de2e77b9/artifacts
+end_time: 1746418203326
+entry_point_name: ''
+experiment_id: '287923612319523209'
+lifecycle_stage: active
+run_id: de4095a985174b74ad2c1a79de2e77b9
+run_name: lstm_pytorch
+run_uuid: de4095a985174b74ad2c1a79de2e77b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746418181653
+status: 3
+tags: []
+user_id: arai

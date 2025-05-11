@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/177fcb77fb7f4df988697d1d8c0d23a9/artifacts
+end_time: 1746245204034
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 177fcb77fb7f4df988697d1d8c0d23a9
+run_name: rumbling-bug-64
+run_uuid: 177fcb77fb7f4df988697d1d8c0d23a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245193656
+status: 3
+tags: []
+user_id: arai

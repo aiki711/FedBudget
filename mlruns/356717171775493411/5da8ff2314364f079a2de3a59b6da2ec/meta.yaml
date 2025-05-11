@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/5da8ff2314364f079a2de3a59b6da2ec/artifacts
+end_time: 1746247363336
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 5da8ff2314364f079a2de3a59b6da2ec
+run_name: wise-hog-108
+run_uuid: 5da8ff2314364f079a2de3a59b6da2ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247355648
+status: 3
+tags: []
+user_id: arai

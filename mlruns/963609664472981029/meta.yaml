@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/963609664472981029
+creation_time: 1746281947949
+experiment_id: '963609664472981029'
+last_update_time: 1746281947949
+lifecycle_stage: active
+name: pytorch_baseline

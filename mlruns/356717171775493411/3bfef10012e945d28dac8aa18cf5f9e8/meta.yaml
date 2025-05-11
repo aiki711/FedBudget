@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/3bfef10012e945d28dac8aa18cf5f9e8/artifacts
+end_time: 1746250645244
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 3bfef10012e945d28dac8aa18cf5f9e8
+run_name: victorious-ray-801
+run_uuid: 3bfef10012e945d28dac8aa18cf5f9e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746250640954
+status: 3
+tags: []
+user_id: arai

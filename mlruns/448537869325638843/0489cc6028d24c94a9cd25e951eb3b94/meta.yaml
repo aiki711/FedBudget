@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/0489cc6028d24c94a9cd25e951eb3b94/artifacts
+end_time: 1746282070377
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 0489cc6028d24c94a9cd25e951eb3b94
+run_name: merciful-shad-383
+run_uuid: 0489cc6028d24c94a9cd25e951eb3b94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746282049102
+status: 3
+tags: []
+user_id: arai

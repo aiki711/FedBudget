@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/8fd6657be072423d8d31a0e783188ff4/artifacts
+end_time: 1746245215302
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 8fd6657be072423d8d31a0e783188ff4
+run_name: painted-shrike-533
+run_uuid: 8fd6657be072423d8d31a0e783188ff4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245211098
+status: 3
+tags: []
+user_id: arai

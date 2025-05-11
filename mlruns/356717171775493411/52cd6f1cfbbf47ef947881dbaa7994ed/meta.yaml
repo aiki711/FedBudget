@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/52cd6f1cfbbf47ef947881dbaa7994ed/artifacts
+end_time: 1746247369520
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 52cd6f1cfbbf47ef947881dbaa7994ed
+run_name: gregarious-crab-236
+run_uuid: 52cd6f1cfbbf47ef947881dbaa7994ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247363489
+status: 3
+tags: []
+user_id: arai

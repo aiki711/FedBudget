@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/ba2abfbce09143e1a1bd82e7e02cca2c/artifacts
+end_time: 1746247114439
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: ba2abfbce09143e1a1bd82e7e02cca2c
+run_name: intrigued-hound-790
+run_uuid: ba2abfbce09143e1a1bd82e7e02cca2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247106575
+status: 3
+tags: []
+user_id: arai

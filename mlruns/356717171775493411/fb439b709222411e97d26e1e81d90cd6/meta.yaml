@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/fb439b709222411e97d26e1e81d90cd6/artifacts
+end_time: 1746245223566
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: fb439b709222411e97d26e1e81d90cd6
+run_name: big-stoat-341
+run_uuid: fb439b709222411e97d26e1e81d90cd6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245223356
+status: 4
+tags: []
+user_id: arai

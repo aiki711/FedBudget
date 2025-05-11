@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/e041b0ee68a24bbd9a564342636843f9/artifacts
+end_time: 1746245246872
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: e041b0ee68a24bbd9a564342636843f9
+run_name: charming-ape-703
+run_uuid: e041b0ee68a24bbd9a564342636843f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245246681
+status: 4
+tags: []
+user_id: arai

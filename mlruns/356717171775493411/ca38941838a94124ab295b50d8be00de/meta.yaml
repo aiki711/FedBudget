@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/ca38941838a94124ab295b50d8be00de/artifacts
+end_time: 1746245163863
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: ca38941838a94124ab295b50d8be00de
+run_name: selective-fly-316
+run_uuid: ca38941838a94124ab295b50d8be00de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245158890
+status: 3
+tags: []
+user_id: arai

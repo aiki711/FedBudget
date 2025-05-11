@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/253e9ec9ba6a42f09034171f035e7c5e/artifacts
+end_time: 1746282130810
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 253e9ec9ba6a42f09034171f035e7c5e
+run_name: efficient-mule-177
+run_uuid: 253e9ec9ba6a42f09034171f035e7c5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746282094496
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/cf87d941e7c64125bcd9158a50e8f470/artifacts
+end_time: 1746249666526
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: cf87d941e7c64125bcd9158a50e8f470
+run_name: gaudy-wolf-870
+run_uuid: cf87d941e7c64125bcd9158a50e8f470
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249655830
+status: 3
+tags: []
+user_id: arai

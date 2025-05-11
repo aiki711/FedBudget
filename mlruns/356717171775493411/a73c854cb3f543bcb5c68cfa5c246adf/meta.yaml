@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/a73c854cb3f543bcb5c68cfa5c246adf/artifacts
+end_time: 1746249757846
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: a73c854cb3f543bcb5c68cfa5c246adf
+run_name: melodic-sloth-646
+run_uuid: a73c854cb3f543bcb5c68cfa5c246adf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249749965
+status: 3
+tags: []
+user_id: arai

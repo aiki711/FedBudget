@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/df33e8c1a4554b6bbe763292618f1aed/artifacts
+end_time: 1746247635603
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: df33e8c1a4554b6bbe763292618f1aed
+run_name: puzzled-loon-414
+run_uuid: df33e8c1a4554b6bbe763292618f1aed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247601709
+status: 3
+tags: []
+user_id: arai

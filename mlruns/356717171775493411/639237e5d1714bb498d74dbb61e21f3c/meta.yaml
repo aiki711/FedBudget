@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/639237e5d1714bb498d74dbb61e21f3c/artifacts
+end_time: 1746249739708
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 639237e5d1714bb498d74dbb61e21f3c
+run_name: silent-doe-994
+run_uuid: 639237e5d1714bb498d74dbb61e21f3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249731793
+status: 3
+tags: []
+user_id: arai

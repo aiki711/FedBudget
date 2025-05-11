@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/3d8232c986694c5b8568d660adc17bcc/artifacts
+end_time: 1746248378028
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 3d8232c986694c5b8568d660adc17bcc
+run_name: respected-robin-572
+run_uuid: 3d8232c986694c5b8568d660adc17bcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248348160
+status: 3
+tags: []
+user_id: arai

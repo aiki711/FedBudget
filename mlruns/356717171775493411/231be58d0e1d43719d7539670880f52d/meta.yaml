@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/231be58d0e1d43719d7539670880f52d/artifacts
+end_time: 1746249635299
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 231be58d0e1d43719d7539670880f52d
+run_name: unleashed-cat-525
+run_uuid: 231be58d0e1d43719d7539670880f52d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249624602
+status: 3
+tags: []
+user_id: arai

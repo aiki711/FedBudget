@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/8a270e5b6a494588b743fa01a351f9c5/artifacts
+end_time: 1746245185785
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 8a270e5b6a494588b743fa01a351f9c5
+run_name: bouncy-robin-760
+run_uuid: 8a270e5b6a494588b743fa01a351f9c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245185338
+status: 4
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/ec52575493a64944b554adf951348d58/artifacts
+end_time: 1746247297412
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: ec52575493a64944b554adf951348d58
+run_name: respected-loon-791
+run_uuid: ec52575493a64944b554adf951348d58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247283027
+status: 3
+tags: []
+user_id: arai

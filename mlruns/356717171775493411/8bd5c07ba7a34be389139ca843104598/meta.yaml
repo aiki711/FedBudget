@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/8bd5c07ba7a34be389139ca843104598/artifacts
+end_time: 1746250547066
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 8bd5c07ba7a34be389139ca843104598
+run_name: enchanting-hawk-427
+run_uuid: 8bd5c07ba7a34be389139ca843104598
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746250531878
+status: 3
+tags: []
+user_id: arai

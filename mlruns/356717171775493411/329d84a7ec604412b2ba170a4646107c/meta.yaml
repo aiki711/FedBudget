@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/329d84a7ec604412b2ba170a4646107c/artifacts
+end_time: 1746248347986
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 329d84a7ec604412b2ba170a4646107c
+run_name: shivering-gnu-114
+run_uuid: 329d84a7ec604412b2ba170a4646107c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248319319
+status: 3
+tags: []
+user_id: arai

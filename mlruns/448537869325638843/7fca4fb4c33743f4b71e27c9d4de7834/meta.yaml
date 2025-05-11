@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/7fca4fb4c33743f4b71e27c9d4de7834/artifacts
+end_time: 1746287316080
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 7fca4fb4c33743f4b71e27c9d4de7834
+run_name: omniscient-squid-185
+run_uuid: 7fca4fb4c33743f4b71e27c9d4de7834
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746287027908
+status: 3
+tags: []
+user_id: arai

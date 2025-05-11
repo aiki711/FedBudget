@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/20b2194d07754bc7bcd9e4cb9f9db29a/artifacts
+end_time: 1746245182818
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 20b2194d07754bc7bcd9e4cb9f9db29a
+run_name: welcoming-boar-363
+run_uuid: 20b2194d07754bc7bcd9e4cb9f9db29a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245182548
+status: 4
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/24b2b3d3fe1549e4a598227031ee92dc/artifacts
+end_time: 1746249828305
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 24b2b3d3fe1549e4a598227031ee92dc
+run_name: efficient-ape-646
+run_uuid: 24b2b3d3fe1549e4a598227031ee92dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249820504
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/cabe304fbe7f4d3c9aac010d0e45b43d/artifacts
+end_time: 1746250710443
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: cabe304fbe7f4d3c9aac010d0e45b43d
+run_name: kindly-horse-767
+run_uuid: cabe304fbe7f4d3c9aac010d0e45b43d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746250703543
+status: 3
+tags: []
+user_id: arai

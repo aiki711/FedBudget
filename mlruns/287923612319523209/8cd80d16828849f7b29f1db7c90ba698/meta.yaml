@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/287923612319523209/8cd80d16828849f7b29f1db7c90ba698/artifacts
+end_time: 1746418214323
+entry_point_name: ''
+experiment_id: '287923612319523209'
+lifecycle_stage: active
+run_id: 8cd80d16828849f7b29f1db7c90ba698
+run_name: unleashed-ram-397
+run_uuid: 8cd80d16828849f7b29f1db7c90ba698
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746418203383
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/4947517963224b139f927b0c320ab9fb/artifacts
+end_time: 1746290420911
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 4947517963224b139f927b0c320ab9fb
+run_name: vaunted-rook-16
+run_uuid: 4947517963224b139f927b0c320ab9fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746290382493
+status: 3
+tags: []
+user_id: arai

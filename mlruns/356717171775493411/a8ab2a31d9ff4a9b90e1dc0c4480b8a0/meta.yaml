@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/a8ab2a31d9ff4a9b90e1dc0c4480b8a0/artifacts
+end_time: 1746248702783
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: a8ab2a31d9ff4a9b90e1dc0c4480b8a0
+run_name: sneaky-crane-738
+run_uuid: a8ab2a31d9ff4a9b90e1dc0c4480b8a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248695911
+status: 3
+tags: []
+user_id: arai

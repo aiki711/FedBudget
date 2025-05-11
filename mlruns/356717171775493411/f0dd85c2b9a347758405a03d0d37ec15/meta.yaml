@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/f0dd85c2b9a347758405a03d0d37ec15/artifacts
+end_time: 1746248264866
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: f0dd85c2b9a347758405a03d0d37ec15
+run_name: colorful-jay-44
+run_uuid: f0dd85c2b9a347758405a03d0d37ec15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248257926
+status: 3
+tags: []
+user_id: arai

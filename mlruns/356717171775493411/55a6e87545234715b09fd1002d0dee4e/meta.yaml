@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/55a6e87545234715b09fd1002d0dee4e/artifacts
+end_time: 1746245150031
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 55a6e87545234715b09fd1002d0dee4e
+run_name: melodic-hound-97
+run_uuid: 55a6e87545234715b09fd1002d0dee4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245148395
+status: 3
+tags: []
+user_id: arai

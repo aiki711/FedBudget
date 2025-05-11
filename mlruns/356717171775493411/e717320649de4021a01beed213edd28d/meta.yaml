@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/e717320649de4021a01beed213edd28d/artifacts
+end_time: 1746245239395
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: e717320649de4021a01beed213edd28d
+run_name: languid-shrike-827
+run_uuid: e717320649de4021a01beed213edd28d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245239128
+status: 4
+tags: []
+user_id: arai

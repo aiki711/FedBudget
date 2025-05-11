@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/1edbc974a5e74fc091d3b3679ec52d33/artifacts
+end_time: 1746250519931
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 1edbc974a5e74fc091d3b3679ec52d33
+run_name: indecisive-sheep-703
+run_uuid: 1edbc974a5e74fc091d3b3679ec52d33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746250490147
+status: 3
+tags: []
+user_id: arai

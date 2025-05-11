@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/b0176481424445058aceb23cfddbb865/artifacts
+end_time: 1746245190990
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: b0176481424445058aceb23cfddbb865
+run_name: big-trout-689
+run_uuid: b0176481424445058aceb23cfddbb865
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245189267
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/2aca6344cf9f4c318d658ee2147f4bed/artifacts
+end_time: 1746248601150
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 2aca6344cf9f4c318d658ee2147f4bed
+run_name: orderly-croc-478
+run_uuid: 2aca6344cf9f4c318d658ee2147f4bed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248598069
+status: 3
+tags: []
+user_id: arai

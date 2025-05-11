@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/8877ef2a859347aa9f9ae32e1664f552/artifacts
+end_time: 1746246991373
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 8877ef2a859347aa9f9ae32e1664f552
+run_name: funny-crane-50
+run_uuid: 8877ef2a859347aa9f9ae32e1664f552
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746246977972
+status: 3
+tags: []
+user_id: arai

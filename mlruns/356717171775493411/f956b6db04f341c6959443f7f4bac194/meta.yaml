@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/f956b6db04f341c6959443f7f4bac194/artifacts
+end_time: 1746248478416
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: f956b6db04f341c6959443f7f4bac194
+run_name: bald-dolphin-330
+run_uuid: f956b6db04f341c6959443f7f4bac194
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248457022
+status: 3
+tags: []
+user_id: arai

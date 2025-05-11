@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/041f2dd37eb44eb3b18f7a9ea4164c7d/artifacts
+end_time: 1746249763351
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 041f2dd37eb44eb3b18f7a9ea4164c7d
+run_name: abrasive-bug-70
+run_uuid: 041f2dd37eb44eb3b18f7a9ea4164c7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249757997
+status: 3
+tags: []
+user_id: arai

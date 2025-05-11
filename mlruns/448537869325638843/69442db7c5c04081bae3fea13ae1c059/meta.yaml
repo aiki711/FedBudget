@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/69442db7c5c04081bae3fea13ae1c059/artifacts
+end_time: 1746282150807
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 69442db7c5c04081bae3fea13ae1c059
+run_name: nebulous-bug-400
+run_uuid: 69442db7c5c04081bae3fea13ae1c059
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746282130949
+status: 3
+tags: []
+user_id: arai

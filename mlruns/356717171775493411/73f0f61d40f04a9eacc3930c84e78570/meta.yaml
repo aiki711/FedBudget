@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/73f0f61d40f04a9eacc3930c84e78570/artifacts
+end_time: 1746250703199
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 73f0f61d40f04a9eacc3930c84e78570
+run_name: suave-seal-553
+run_uuid: 73f0f61d40f04a9eacc3930c84e78570
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746250689371
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/80ac6edf918e4fce8b820cb2f8f2e4fe/artifacts
+end_time: 1746247775438
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 80ac6edf918e4fce8b820cb2f8f2e4fe
+run_name: gregarious-rook-382
+run_uuid: 80ac6edf918e4fce8b820cb2f8f2e4fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247771050
+status: 3
+tags: []
+user_id: arai

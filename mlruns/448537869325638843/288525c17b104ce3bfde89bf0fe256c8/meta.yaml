@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/288525c17b104ce3bfde89bf0fe256c8/artifacts
+end_time: 1746282300897
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 288525c17b104ce3bfde89bf0fe256c8
+run_name: crawling-shrimp-684
+run_uuid: 288525c17b104ce3bfde89bf0fe256c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746282282149
+status: 3
+tags: []
+user_id: arai

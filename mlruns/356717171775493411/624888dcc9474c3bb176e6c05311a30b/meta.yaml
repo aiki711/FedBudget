@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/624888dcc9474c3bb176e6c05311a30b/artifacts
+end_time: 1746249585799
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 624888dcc9474c3bb176e6c05311a30b
+run_name: bright-cod-634
+run_uuid: 624888dcc9474c3bb176e6c05311a30b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249577582
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/287923612319523209
+creation_time: 1746411982739
+experiment_id: '287923612319523209'
+last_update_time: 1746411982739
+lifecycle_stage: active
+name: lstm_pytorch

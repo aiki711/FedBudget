@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/dd7fce061df04f41aa8070726dbb6425/artifacts
+end_time: 1746247806075
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: dd7fce061df04f41aa8070726dbb6425
+run_name: illustrious-fish-993
+run_uuid: dd7fce061df04f41aa8070726dbb6425
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247802692
+status: 3
+tags: []
+user_id: arai

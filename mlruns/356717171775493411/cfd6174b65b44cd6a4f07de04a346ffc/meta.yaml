@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/cfd6174b65b44cd6a4f07de04a346ffc/artifacts
+end_time: 1746249782806
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: cfd6174b65b44cd6a4f07de04a346ffc
+run_name: fun-carp-626
+run_uuid: cfd6174b65b44cd6a4f07de04a346ffc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249773853
+status: 3
+tags: []
+user_id: arai

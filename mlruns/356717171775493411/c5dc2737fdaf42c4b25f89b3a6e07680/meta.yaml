@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/c5dc2737fdaf42c4b25f89b3a6e07680/artifacts
+end_time: 1746249655666
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: c5dc2737fdaf42c4b25f89b3a6e07680
+run_name: exultant-doe-420
+run_uuid: c5dc2737fdaf42c4b25f89b3a6e07680
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249650195
+status: 3
+tags: []
+user_id: arai

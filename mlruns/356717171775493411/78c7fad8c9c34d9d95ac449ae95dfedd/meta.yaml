@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/78c7fad8c9c34d9d95ac449ae95dfedd/artifacts
+end_time: 1746248534534
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 78c7fad8c9c34d9d95ac449ae95dfedd
+run_name: painted-shoat-749
+run_uuid: 78c7fad8c9c34d9d95ac449ae95dfedd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248509223
+status: 3
+tags: []
+user_id: arai

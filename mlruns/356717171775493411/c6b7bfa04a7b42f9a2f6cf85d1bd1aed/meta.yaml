@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/c6b7bfa04a7b42f9a2f6cf85d1bd1aed/artifacts
+end_time: 1746248680310
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: c6b7bfa04a7b42f9a2f6cf85d1bd1aed
+run_name: useful-deer-661
+run_uuid: c6b7bfa04a7b42f9a2f6cf85d1bd1aed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248670566
+status: 3
+tags: []
+user_id: arai

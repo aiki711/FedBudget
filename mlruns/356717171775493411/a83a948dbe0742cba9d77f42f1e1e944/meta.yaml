@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/a83a948dbe0742cba9d77f42f1e1e944/artifacts
+end_time: 1746245229826
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: a83a948dbe0742cba9d77f42f1e1e944
+run_name: lyrical-tern-453
+run_uuid: a83a948dbe0742cba9d77f42f1e1e944
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245228892
+status: 4
+tags: []
+user_id: arai

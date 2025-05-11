@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/64bc08ebbcce41aa91440e777262db96/artifacts
+end_time: 1746247799784
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 64bc08ebbcce41aa91440e777262db96
+run_name: delightful-bear-942
+run_uuid: 64bc08ebbcce41aa91440e777262db96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247795891
+status: 3
+tags: []
+user_id: arai

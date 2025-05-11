@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/9e880e52d10d43d682d4a23115175f77/artifacts
+end_time: 1746245180115
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 9e880e52d10d43d682d4a23115175f77
+run_name: placid-moose-173
+run_uuid: 9e880e52d10d43d682d4a23115175f77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245179965
+status: 4
+tags: []
+user_id: arai

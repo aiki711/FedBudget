@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/0135ac4cb3d14973842a818674b98e8b/artifacts
+end_time: 1746245232453
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 0135ac4cb3d14973842a818674b98e8b
+run_name: zealous-crow-965
+run_uuid: 0135ac4cb3d14973842a818674b98e8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245232270
+status: 4
+tags: []
+user_id: arai

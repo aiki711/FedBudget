@@ -1,0 +1,14 @@
+FLBudget/projectフォルダに移動
+
+conda activate spend_ml で仮想環境の起動
+
+python src/train_pytorch_lstm.py で実測値データを作成
+
+python src/combine_toal_and_ratio.py で
+
+月末の予測結果をforecast_category.csvに保存
+一週間後の予測結果をforecast_category_7days.csvに保存
+1日ごとの累積予測結果をpredicted_total_daily.csvに保存
+リスク予測
+月全体の予算に基づくカテゴリ別自動分配結果
+

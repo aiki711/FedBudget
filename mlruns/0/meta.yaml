@@ -1,6 +1,6 @@
-artifact_location: file:///C:/Users/arai/大学院/アプリ/federated_learning/project/mlruns/artifacts/0
-creation_time: 1746111215704
+artifact_location: mlflow-artifacts:/0
+creation_time: 1746177175586
 experiment_id: '0'
-last_update_time: 1746111215704
+last_update_time: 1746177175586
 lifecycle_stage: active
 name: Default

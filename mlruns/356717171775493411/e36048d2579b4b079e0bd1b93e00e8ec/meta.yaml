@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/e36048d2579b4b079e0bd1b93e00e8ec/artifacts
+end_time: 1746245217482
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: e36048d2579b4b079e0bd1b93e00e8ec
+run_name: bald-vole-850
+run_uuid: e36048d2579b4b079e0bd1b93e00e8ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245216109
+status: 4
+tags: []
+user_id: arai

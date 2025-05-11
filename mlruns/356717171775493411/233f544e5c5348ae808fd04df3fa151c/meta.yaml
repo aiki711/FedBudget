@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/233f544e5c5348ae808fd04df3fa151c/artifacts
+end_time: 1746247674145
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 233f544e5c5348ae808fd04df3fa151c
+run_name: melodic-bass-518
+run_uuid: 233f544e5c5348ae808fd04df3fa151c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247666081
+status: 3
+tags: []
+user_id: arai

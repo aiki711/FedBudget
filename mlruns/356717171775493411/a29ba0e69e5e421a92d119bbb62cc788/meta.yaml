@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/a29ba0e69e5e421a92d119bbb62cc788/artifacts
+end_time: 1746248319144
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: a29ba0e69e5e421a92d119bbb62cc788
+run_name: blushing-crane-440
+run_uuid: a29ba0e69e5e421a92d119bbb62cc788
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248313256
+status: 3
+tags: []
+user_id: arai

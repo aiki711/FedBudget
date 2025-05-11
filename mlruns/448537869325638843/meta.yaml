@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/448537869325638843
+creation_time: 1746281948008
+experiment_id: '448537869325638843'
+last_update_time: 1746281948008
+lifecycle_stage: active
+name: lstm_pytorch_tune

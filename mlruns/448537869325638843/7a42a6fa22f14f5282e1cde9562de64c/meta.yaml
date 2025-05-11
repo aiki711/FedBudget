@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/7a42a6fa22f14f5282e1cde9562de64c/artifacts
+end_time: 1746282562383
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 7a42a6fa22f14f5282e1cde9562de64c
+run_name: traveling-foal-168
+run_uuid: 7a42a6fa22f14f5282e1cde9562de64c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746282550853
+status: 3
+tags: []
+user_id: arai

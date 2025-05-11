@@ -1,6 +1,0 @@
-artifact_location: file:///C:/Users/arai/大学院/アプリ/federated_learning/project/mlruns/artifacts/871956077650657910
-creation_time: 1746111224394
-experiment_id: '871956077650657910'
-last_update_time: 1746111224394
-lifecycle_stage: active
-name: keras_lstm_prophet

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/6016f195c50e4f919d7220ec69a99d49/artifacts
+end_time: 1746247714145
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 6016f195c50e4f919d7220ec69a99d49
+run_name: bustling-croc-267
+run_uuid: 6016f195c50e4f919d7220ec69a99d49
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247704404
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/fe9790f71f434dbf8ed40b50f7cc25b0/artifacts
+end_time: 1746246914155
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: fe9790f71f434dbf8ed40b50f7cc25b0
+run_name: intelligent-kite-494
+run_uuid: fe9790f71f434dbf8ed40b50f7cc25b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746246911869
+status: 3
+tags: []
+user_id: arai

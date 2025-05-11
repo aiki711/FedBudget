@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/da4662bc4b2e4011af734adf6d3faeb6/artifacts
+end_time: 1746290628010
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: da4662bc4b2e4011af734adf6d3faeb6
+run_name: fearless-zebra-796
+run_uuid: da4662bc4b2e4011af734adf6d3faeb6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746290591940
+status: 3
+tags: []
+user_id: arai

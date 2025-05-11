@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/448cd9865eaf42599d8e6ea61c805bf6/artifacts
+end_time: 1746247665921
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 448cd9865eaf42599d8e6ea61c805bf6
+run_name: hilarious-hen-673
+run_uuid: 448cd9865eaf42599d8e6ea61c805bf6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247658993
+status: 3
+tags: []
+user_id: arai

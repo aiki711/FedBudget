@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/f4b3c9aedcae470e83ffc97563466a04/artifacts
+end_time: 1746247091591
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: f4b3c9aedcae470e83ffc97563466a04
+run_name: aged-moth-604
+run_uuid: f4b3c9aedcae470e83ffc97563466a04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247023419
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/7f56a3106973449bb82f56cc172a59d9/artifacts
+end_time: 1746245148250
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 7f56a3106973449bb82f56cc172a59d9
+run_name: valuable-pug-169
+run_uuid: 7f56a3106973449bb82f56cc172a59d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245144841
+status: 3
+tags: []
+user_id: arai

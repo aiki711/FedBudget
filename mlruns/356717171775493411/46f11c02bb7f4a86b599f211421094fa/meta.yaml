@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/46f11c02bb7f4a86b599f211421094fa/artifacts
+end_time: 1746245179807
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 46f11c02bb7f4a86b599f211421094fa
+run_name: overjoyed-tern-562
+run_uuid: 46f11c02bb7f4a86b599f211421094fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245179229
+status: 4
+tags: []
+user_id: arai

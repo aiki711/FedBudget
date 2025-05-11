@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/5853a03b04da4dbba52aef655069b959/artifacts
+end_time: 1746282172384
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 5853a03b04da4dbba52aef655069b959
+run_name: bedecked-mare-545
+run_uuid: 5853a03b04da4dbba52aef655069b959
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746282150947
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/b3f66cc8ba564defbe8a44fe02bc66c8/artifacts
+end_time: 1746245170745
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: b3f66cc8ba564defbe8a44fe02bc66c8
+run_name: receptive-mink-316
+run_uuid: b3f66cc8ba564defbe8a44fe02bc66c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245170569
+status: 4
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/46b042970f87428ea685874efdbbdd90/artifacts
+end_time: 1746247252501
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 46b042970f87428ea685874efdbbdd90
+run_name: gifted-mare-419
+run_uuid: 46b042970f87428ea685874efdbbdd90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247232180
+status: 3
+tags: []
+user_id: arai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/b6cb708a860343c4a134e5fdac833f2e/artifacts
+end_time: 1746282387324
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: b6cb708a860343c4a134e5fdac833f2e
+run_name: stately-rat-459
+run_uuid: b6cb708a860343c4a134e5fdac833f2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746282374415
+status: 3
+tags: []
+user_id: arai

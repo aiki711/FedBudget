@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/c2026b69715e4284b971c03647abb1d8/artifacts
+end_time: 1746250596677
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: c2026b69715e4284b971c03647abb1d8
+run_name: crawling-frog-942
+run_uuid: c2026b69715e4284b971c03647abb1d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746250582017
+status: 3
+tags: []
+user_id: arai

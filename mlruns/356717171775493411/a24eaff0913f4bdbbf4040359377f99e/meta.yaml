@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/a24eaff0913f4bdbbf4040359377f99e/artifacts
+end_time: 1746247166197
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: a24eaff0913f4bdbbf4040359377f99e
+run_name: unequaled-gull-866
+run_uuid: a24eaff0913f4bdbbf4040359377f99e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247155028
+status: 3
+tags: []
+user_id: arai

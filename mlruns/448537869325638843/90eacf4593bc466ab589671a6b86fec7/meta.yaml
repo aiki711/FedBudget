@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/90eacf4593bc466ab589671a6b86fec7/artifacts
+end_time: 1746290114475
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 90eacf4593bc466ab589671a6b86fec7
+run_name: rare-turtle-110
+run_uuid: 90eacf4593bc466ab589671a6b86fec7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746290087717
+status: 3
+tags: []
+user_id: arai

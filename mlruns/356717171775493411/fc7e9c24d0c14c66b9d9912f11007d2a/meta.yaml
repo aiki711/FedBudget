@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/fc7e9c24d0c14c66b9d9912f11007d2a/artifacts
+end_time: 1746247317254
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: fc7e9c24d0c14c66b9d9912f11007d2a
+run_name: thundering-gnu-515
+run_uuid: fc7e9c24d0c14c66b9d9912f11007d2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247297575
+status: 3
+tags: []
+user_id: arai

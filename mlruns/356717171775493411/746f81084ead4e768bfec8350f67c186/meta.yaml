@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/746f81084ead4e768bfec8350f67c186/artifacts
+end_time: 1746247759714
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 746f81084ead4e768bfec8350f67c186
+run_name: defiant-lynx-401
+run_uuid: 746f81084ead4e768bfec8350f67c186
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247753510
+status: 3
+tags: []
+user_id: arai

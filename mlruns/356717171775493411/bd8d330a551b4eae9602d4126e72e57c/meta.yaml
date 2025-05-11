@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/bd8d330a551b4eae9602d4126e72e57c/artifacts
+end_time: 1746247727549
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: bd8d330a551b4eae9602d4126e72e57c
+run_name: burly-mule-29
+run_uuid: bd8d330a551b4eae9602d4126e72e57c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247721346
+status: 3
+tags: []
+user_id: arai

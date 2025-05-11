@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/e2681a6458444a178242b7104580adba/artifacts
+end_time: 1746247839353
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: e2681a6458444a178242b7104580adba
+run_name: welcoming-newt-302
+run_uuid: e2681a6458444a178242b7104580adba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247828196
+status: 3
+tags: []
+user_id: arai

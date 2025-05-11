@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/29e4b4c0cb0e4ea3a8693d09b008c006/artifacts
+end_time: 1746247102544
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 29e4b4c0cb0e4ea3a8693d09b008c006
+run_name: secretive-mule-844
+run_uuid: 29e4b4c0cb0e4ea3a8693d09b008c006
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247094091
+status: 3
+tags: []
+user_id: arai

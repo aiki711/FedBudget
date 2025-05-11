@@ -12,15 +12,24 @@ MODELS_DIR       = BASE_DIR / "models"
 SAVED_MODELS_DIR = BASE_DIR / "saved_models"
 OUTPUT_DIR       = BASE_DIR / "output"
 
-# --- LSTM シーケンス長 ---
+# 固定ハイパーパラメータ
 SEQ_LEN = 14
+BATCH_SIZE = 8
+HIDDEN_SIZE = 256
+NUM_LAYERS = 3
+DROPOUT = 0.0159
+LEARNING_RATE = 0.00717663702416692
+EPOCHS = 50
+
 
 # --- 給与日 (例として毎月25日) ---
 PAYDAY_DAY = 25
 
 # --- MLflow 実験名 ---
-EXPERIMENT_TRAIN = "keras_lstm_prophet_scaled"
-EXPERIMENT_TUNE  = "keras_lstm_optuna"
+EXPERIMENT_TRAIN = "lstm_pytorch"
+EXPERIMENT_TUNE  = "lstm_pytorch_tune"
+EXPERIMENT_MULTI = "lstm_multi"
+EXPERIMENT_MULTI_TUNE = "lstm_multi_tune"
 
 # 必要なディレクトリをあらかじめ作成
 for d in (MODELS_DIR, SAVED_MODELS_DIR, OUTPUT_DIR):

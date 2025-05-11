@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/f94a819538b749cf88ab8c5930ca95ec/artifacts
+end_time: 1746249624467
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: f94a819538b749cf88ab8c5930ca95ec
+run_name: unique-fawn-187
+run_uuid: f94a819538b749cf88ab8c5930ca95ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746249619854
+status: 3
+tags: []
+user_id: arai

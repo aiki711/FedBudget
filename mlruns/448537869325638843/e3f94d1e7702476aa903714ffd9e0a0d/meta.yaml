@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/e3f94d1e7702476aa903714ffd9e0a0d/artifacts
+end_time: 1746289930122
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: e3f94d1e7702476aa903714ffd9e0a0d
+run_name: casual-swan-615
+run_uuid: e3f94d1e7702476aa903714ffd9e0a0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746289864243
+status: 3
+tags: []
+user_id: arai

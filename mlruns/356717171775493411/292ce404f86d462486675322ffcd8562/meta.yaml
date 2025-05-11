@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/292ce404f86d462486675322ffcd8562/artifacts
+end_time: 1746247023255
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 292ce404f86d462486675322ffcd8562
+run_name: skillful-sponge-897
+run_uuid: 292ce404f86d462486675322ffcd8562
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247018160
+status: 3
+tags: []
+user_id: arai

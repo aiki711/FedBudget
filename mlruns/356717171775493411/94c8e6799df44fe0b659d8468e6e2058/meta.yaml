@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/94c8e6799df44fe0b659d8468e6e2058/artifacts
+end_time: 1746248313029
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 94c8e6799df44fe0b659d8468e6e2058
+run_name: thundering-ram-230
+run_uuid: 94c8e6799df44fe0b659d8468e6e2058
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746248305365
+status: 3
+tags: []
+user_id: arai

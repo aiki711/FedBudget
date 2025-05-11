@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/448537869325638843/65d68ee9a02c4ecaab9b7621d51301fd/artifacts
+end_time: 1746282465887
+entry_point_name: ''
+experiment_id: '448537869325638843'
+lifecycle_stage: active
+run_id: 65d68ee9a02c4ecaab9b7621d51301fd
+run_name: bright-asp-620
+run_uuid: 65d68ee9a02c4ecaab9b7621d51301fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746282451950
+status: 3
+tags: []
+user_id: arai

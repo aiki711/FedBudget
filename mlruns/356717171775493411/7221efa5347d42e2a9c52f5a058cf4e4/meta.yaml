@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/7221efa5347d42e2a9c52f5a058cf4e4/artifacts
+end_time: 1746245177265
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 7221efa5347d42e2a9c52f5a058cf4e4
+run_name: unleashed-stork-211
+run_uuid: 7221efa5347d42e2a9c52f5a058cf4e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746245176724
+status: 4
+tags: []
+user_id: arai

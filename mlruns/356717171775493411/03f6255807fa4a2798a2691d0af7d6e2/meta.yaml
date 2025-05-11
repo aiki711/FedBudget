@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/356717171775493411/03f6255807fa4a2798a2691d0af7d6e2/artifacts
+end_time: 1746247266325
+entry_point_name: ''
+experiment_id: '356717171775493411'
+lifecycle_stage: active
+run_id: 03f6255807fa4a2798a2691d0af7d6e2
+run_name: rare-shark-188
+run_uuid: 03f6255807fa4a2798a2691d0af7d6e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746247252664
+status: 3
+tags: []
+user_id: arai
