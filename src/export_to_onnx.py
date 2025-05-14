@@ -3,7 +3,7 @@ import argparse
 from train_pytorch_lstm import AttentionLSTMModel
 from train_ratio_predictor import TransformerRatioPredictor
 
-def export_model_total(pt_path, onnx_path, input_size=20):
+def export_model_total(pt_path, onnx_path, input_size=17):
     model = AttentionLSTMModel(input_size=input_size)
     model.load_state_dict(torch.load(pt_path, map_location="cpu"))
     model.eval()
@@ -14,7 +14,7 @@ def export_model_total(pt_path, onnx_path, input_size=20):
                       opset_version=11)
     print(f"✅ Total model exported to {onnx_path}")
 
-def export_model_ratio(pt_path, onnx_path, input_size=20):
+def export_model_ratio(pt_path, onnx_path, input_size=29):
     model = TransformerRatioPredictor(input_size=input_size, embed_dim=64, num_heads=4, ff_hidden_dim=128, output_size=7)
     model.load_state_dict(torch.load(pt_path, map_location="cpu"))
     model.eval()
