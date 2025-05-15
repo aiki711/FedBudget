@@ -11,15 +11,17 @@ from argparse import ArgumentParser
 from pathlib import Path
 
 from train_pytorch_lstm import AttentionLSTMModel
-from train_ratio_predictor import (
-    TransformerRatioPredictor, 
-    make_ratio_sequence_data, 
-    rebalance_budget, 
+from train_ratio_predictor import TransformerRatioPredictor
+from utils import (
+    make_sequence_data_enhanced, 
+    make_ratio_sequence_data_with_padding
+    )
+from budget_utils import (
+    rebalance_budget,
     calc_daily_limits,
     simulate_with_user_budget,
-    calculate_last_month_budget
-    )
-from utils import make_sequence_data_enhanced
+    calculate_last_month_budget,
+)
 from config import *
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -43,12 +45,21 @@ def load_local_data(user_id):
     test_total = TensorDataset(X_total[split:], y_total[split:])
 
     # 比率モデル用
-    X_ratio, y_ratio, _, cat_cols, _, _ = make_ratio_sequence_data(df_raw, seq_len=SEQ_LEN)
+    X_ratio, y_ratio, scaler, cat_cols, _, _ = make_ratio_sequence_data_with_padding(df_raw, seq_len=21)
     split_r = int(len(X_ratio) * 0.8)
     train_ratio = TensorDataset(X_ratio[:split_r], y_ratio[:split_r])
     test_ratio = TensorDataset(X_ratio[split_r:], y_ratio[split_r:])
 
     return (train_total, test_total, scaler_total, X_total), (train_ratio, test_ratio, cat_cols), X_ratio
+
+
+def get_latest_sequence_dynamic(df_raw, max_len=21):
+    X_all, _, _, _ = make_sequence_data_enhanced(df_raw, seq_len=1)
+    n = X_all.shape[0]
+    seq_len = min(max_len, n)
+    if seq_len == 0:
+        raise ValueError("履歴が存在しません")
+    return X_all[-seq_len:].unsqueeze(0)  # [1, seq_len, input_size]
 
 
 def get_models(input_total, input_ratio, output_ratio):
@@ -100,15 +111,21 @@ def evaluate(model, dataset, loss_fn):
     return loss_total / len(loader)
 
 
-def predict_daily_spending(model, X_last, scaler, days=7):
+def predict_daily_spending(model, df_raw, scaler, days=7):
     model.eval()
     preds = []
-    current_input = X_last.clone().detach()
+    try:
+        current_input = get_latest_sequence_dynamic(df_raw, max_len=SEQ_LEN)
+    except ValueError:
+        print("⚠️ 履歴不足のため予測できません。")
+        return preds
+    
     for _ in range(days):
         with torch.no_grad():
             y_scaled_pred = model(current_input).cpu().numpy()[0][0]
             y_pred = scaler.inverse_transform([[y_scaled_pred]])[0][0]
             preds.append(y_pred)
+
             next_input = current_input[0].clone().numpy()
             next_input[:-1] = next_input[1:]
             next_input[-1][0] = y_scaled_pred
@@ -125,7 +142,11 @@ def post_inference(user_id, model_total, model_ratio, X_total, scaler, X_ratio, 
     model_total.eval()
     preds = []
     dates = []
-    current_input = X_total[-1:].clone().detach()
+    try:
+        current_input = get_latest_sequence_dynamic(load_user_data(user_id), max_len=SEQ_LEN)
+    except ValueError:
+        print(f"⚠️ ユーザー {user_id} の履歴が不足しているため予測をスキップします。")
+        return
     seventh_day_pred = None
 
     for i in range(n_days):
@@ -187,12 +208,14 @@ def post_inference(user_id, model_total, model_ratio, X_total, scaler, X_ratio, 
 
 class FLCombinedClient(fl.client.NumPyClient):
     def __init__(self, user_id):
-        (self.train_total, self.test_total, self.scaler_total, self.X_total),         (self.train_ratio, self.test_ratio, self.cat_cols),         self.X_ratio = load_local_data(user_id)
+        (self.train_total, self.test_total, self.scaler_total, self.X_total), (self.train_ratio, self.test_ratio, self.cat_cols), self.X_ratio = load_local_data(user_id)
         input_total = self.X_total.shape[2]
         input_ratio = self.X_ratio.shape[2]
         output_ratio = self.train_ratio.tensors[1].shape[1]
         self.model_total, self.model_ratio = get_models(input_total, input_ratio, output_ratio)
         self.user_id = user_id
+        print(f"📐 input_total: {input_total}, input_ratio: {input_ratio}, output_ratio: {output_ratio}", flush=True)
+
 
     def get_parameters(self, config):
         return get_parameters(self.model_total, self.model_ratio)

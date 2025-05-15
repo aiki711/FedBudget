@@ -7,17 +7,8 @@ from torch.utils.data import DataLoader, TensorDataset
 import mlflow
 from mlflow_config import setup_mlflow
 from utils import load_data, make_sequence_data_enhanced
-from config import DATA_CSV, MODELS_DIR, SEQ_LEN, BATCH_SIZE, LEARNING_RATE, HIDDEN_SIZE, NUM_LAYERS, DROPOUT, EPOCHS, EXPERIMENT_TRAIN
+from config import *
 from pathlib import Path
-
-# 固定ハイパーパラメータ
-SEQ_LEN = 14
-BATCH_SIZE = 8
-HIDDEN_SIZE = 256
-NUM_LAYERS = 3
-DROPOUT = 0.0159
-LEARNING_RATE = 0.00717663702416692
-EPOCHS = 50
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -42,7 +33,6 @@ class AttentionLSTMModel(nn.Module):
         context = torch.sum(attn_weights * lstm_out, dim=1)              # shape: (batch, hidden_size * 2)
         output = self.fc(context)                                        # shape: (batch, 1)
         return output
-
 
 def train(model, dataloader, val_data, criterion, optimizer, scheduler=None, epochs=EPOCHS, patience=5):
     model.train()
@@ -82,7 +72,6 @@ def train(model, dataloader, val_data, criterion, optimizer, scheduler=None, epo
                 break
         model.train()
 
-
 def evaluate(model, X_test, y_test, scaler):
     model.eval()
     with torch.no_grad():
@@ -91,7 +80,6 @@ def evaluate(model, X_test, y_test, scaler):
     y_true = scaler.inverse_transform(y_test.cpu().numpy().reshape(-1, 1)).flatten()
     mape = np.mean(np.abs((y_true - y_pred) / y_true)) * 100
     return mape
-
 
 def main():
     setup_mlflow()
@@ -148,7 +136,6 @@ def main():
     mlflow.pytorch.log_model(model, artifact_path="model")
     torch.save(model.state_dict(), MODELS_DIR / "attention_lstm_scaled.pth")
     print(f"✅ Attention LSTM model saved, MAPE={mape:.2f}%")
-
 
 if __name__ == "__main__":
     main()

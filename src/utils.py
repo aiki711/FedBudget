@@ -126,3 +126,114 @@ def make_sequence_data_enhanced(df: pd.DataFrame, seq_len: int = 14):
     
     return X_tensor, Y_tensor, y_scaler, date_seq
 
+
+def make_ratio_sequence_data(df: pd.DataFrame, seq_len: int = 14):
+    df["date"] = df["date_time"].dt.date
+    df["date"] = pd.to_datetime(df["date"])
+    df_grouped = df.groupby(["date", "category"])[["amount"]].sum().reset_index()
+    df_pivot = df_grouped.pivot(index="date", columns="category", values="amount").fillna(0)
+    df_pivot = df_pivot.sort_index()
+
+    df_ratio = df_pivot.div(df_pivot.sum(axis=1), axis=0).fillna(0)
+    df_ratio = df_ratio.replace([np.inf, -np.inf], 0)
+    ratio_cols = df_ratio.columns.tolist()
+
+    rolling_mean = df_pivot.rolling(window=3, min_periods=1).mean()
+    diff = df_pivot.diff().fillna(0)
+    std = df_pivot.rolling(window=3, min_periods=1).std().fillna(0)
+    spike_flag = (np.abs(diff) > std * 2).astype(int)
+
+    dow = df_ratio.index.dayofweek.values
+    day = df_ratio.index.day.values
+    month = df_ratio.index.month.values
+    week = df_ratio.index.isocalendar().week.values
+    is_start = (df_ratio.index.day <= 5).astype(int)
+    is_end = (df_ratio.index.day >= 25).astype(int)
+
+    features = pd.DataFrame({
+        "day": day,
+        "month": month,
+        "week": week,
+        "monthly_income": 300000,
+        "is_payday": (day == 25).astype(int),
+        "is_weekend": (dow >= 5).astype(int),
+        "is_month_start": is_start,
+        "is_month_end": is_end,
+    }, index=df_ratio.index)
+    dow_dummies = pd.get_dummies(dow, prefix="dow")
+    features = pd.concat([features, dow_dummies, rolling_mean, spike_flag], axis=1).fillna(0)
+
+    scaler_x = StandardScaler()
+    X_scaled = scaler_x.fit_transform(features)
+
+    X, Y = [], []
+    date_list = []
+    for i in range(len(df_ratio) - seq_len):
+        x_seq = X_scaled[i:i+seq_len]
+        y_val = df_ratio.iloc[i + seq_len].values.astype(np.float32)
+        X.append(x_seq)
+        Y.append(y_val)
+        date_list.append(df_ratio.index[i + seq_len])
+
+    X_tensor = torch.tensor(np.stack(X), dtype=torch.float32)
+    Y_tensor = torch.tensor(np.stack(Y), dtype=torch.float32)
+    return X_tensor, Y_tensor, scaler_x, ratio_cols, date_list, df_ratio
+
+def make_ratio_sequence_data_with_padding(df: pd.DataFrame, seq_len: int = 21):
+    df["date"] = pd.to_datetime(df["date_time"]).dt.date
+    df_grouped = df.groupby(["date", "category"])[["amount"]].sum().reset_index()
+    df_pivot = df_grouped.pivot(index="date", columns="category", values="amount").fillna(0).sort_index()
+
+    # 🟡 合計支出ゼロの日は除外
+    df_pivot = df_pivot[df_pivot.sum(axis=1) > 0]
+
+    df_ratio = df_pivot.div(df_pivot.sum(axis=1), axis=0).fillna(0)
+    ratio_cols = df_ratio.columns.tolist()
+
+    # 特徴量作成
+    rolling_mean = df_pivot.rolling(window=3, min_periods=1).mean()
+    diff = df_pivot.diff().fillna(0)
+    std = df_pivot.rolling(window=3, min_periods=1).std().fillna(0)
+    spike_flag = (np.abs(diff) > std * 2).astype(int)
+
+    idx = pd.DatetimeIndex(df_ratio.index)
+    dow = idx.dayofweek
+    day = idx.day
+    week = idx.isocalendar().week
+    features = pd.DataFrame({
+        "day": day,
+        "week": week,
+        "monthly_income": 300000,
+        "is_payday": (day == 25).astype(int),
+        "is_weekend": (dow >= 5).astype(int),
+        "is_month_start": (day <= 5).astype(int),
+        "is_month_end": (day >= 25).astype(int),
+    }, index=idx)
+    dow_dummies = pd.get_dummies(dow, prefix="dow")
+    features = pd.concat([features, dow_dummies, rolling_mean, spike_flag], axis=1).fillna(0)
+
+    # 🔧 スケーリング
+    scaler_x = StandardScaler()
+    X_scaled = scaler_x.fit_transform(features)
+
+    # 🧩 パディング処理付きデータ生成
+    X_tensor, Y_tensor, date_list = [], [], []
+    for i in range(len(df_ratio)):
+        start = max(0, i - seq_len)
+        x_seq = X_scaled[start:i]
+        y_val = df_ratio.iloc[i].values.astype(np.float32)
+
+        # パディング（前に0を追加）
+        if x_seq.shape[0] < seq_len:
+            pad_len = seq_len - x_seq.shape[0]
+            x_seq = np.vstack([np.zeros((pad_len, x_seq.shape[1])), x_seq])
+
+        X_tensor.append(x_seq)
+        Y_tensor.append(y_val)
+        date_list.append(df_ratio.index[i])
+
+    X_tensor = torch.tensor(np.stack(X_tensor), dtype=torch.float32)
+    Y_tensor = torch.tensor(np.stack(Y_tensor), dtype=torch.float32)
+    return X_tensor, Y_tensor, scaler_x, ratio_cols, date_list, df_ratio
+
+

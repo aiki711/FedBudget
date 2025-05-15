@@ -12,3 +12,5 @@ python src/combine_toal_and_ratio.py で
 リスク予測
 月全体の予算に基づくカテゴリ別自動分配結果
 
+
+

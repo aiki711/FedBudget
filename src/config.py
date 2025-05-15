@@ -13,7 +13,7 @@ SAVED_MODELS_DIR = BASE_DIR / "saved_models"
 OUTPUT_DIR       = BASE_DIR / "output"
 
 # 固定ハイパーパラメータ
-SEQ_LEN = 14
+SEQ_LEN = 21
 BATCH_SIZE = 8
 HIDDEN_SIZE = 256
 NUM_LAYERS = 3

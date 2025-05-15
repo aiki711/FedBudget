@@ -10,14 +10,26 @@ days = 150  # 約5ヶ月分のデータ
 base_date = datetime(2025, 1, 1)
 PAYDAY = 25
 
-# --- カテゴリごとの重みをユーザー別に設定（非IID） ---
-user_preferences = {
-    "U001": {"food": 0.5, "transport": 0.3, "utilities": 0.2}, # 食費・交通費・光熱費が多め
-    "U002": {"entertainment": 0.4, "social": 0.3, "other": 0.3}, # 娯楽・交際・その他が多め
-    "U003": {"clothing_beauty_daily": 0.4, "food": 0.3, "other": 0.3}, # 美容・衣類と食費が多め
-}
-all_categories = list(set(cat for d in user_preferences.values() for cat in d))
+# --- 全カテゴリ ---
+all_categories = ["food", "transport", "entertainment", "clothing_beauty_daily", "utilities", "social", "other"]
 
+# --- ユーザー別カテゴリ重み + 残りを均等に薄く加える ---
+base_preferences = {
+    "U001": {"food": 0.5, "transport": 0.3, "utilities": 0.2},
+    "U002": {"entertainment": 0.4, "social": 0.3, "other": 0.3},
+    "U003": {"clothing_beauty_daily": 0.4, "food": 0.3, "other": 0.3},
+}
+
+user_preferences = {}
+for uid, prefs in base_preferences.items():
+    weights = prefs.copy()
+    missing_cats = [cat for cat in all_categories if cat not in weights]
+    for mc in missing_cats:
+        weights[mc] = 0.01  # ごく小さく追加
+    total = sum(weights.values())
+    normalized = {k: v / total for k, v in weights.items()}
+    user_preferences[uid] = normalized
+    
 # --- ディレクトリ準備 ---
 base_dir = Path("data")
 user_dir = base_dir / "users"
